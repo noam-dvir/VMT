@@ -1,0 +1,18 @@
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\bin\Release\netstandard2.0\VMT.deps.json
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\bin\Release\netstandard2.0\VMT.dll
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\bin\Release\netstandard2.0\ref\VMT.dll
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\bin\Release\netstandard2.0\VMT.pdb
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\VMT.csprojAssemblyReference.cache
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\GamePage.xaml.g.cs
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\GameSelectionPage.xaml.g.cs
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\GroupEntryPage .xaml.g.cs
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\GroupsPage.xaml.g.cs
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\WordEntryPage.xaml.g.cs
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\VMT.AssemblyInfoInputs.cache
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\VMT.AssemblyInfo.cs
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\VMT.dll
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\ref\VMT.dll
+C:\Users\User\Documents\coding\C#\VMT\VMT\VMT\obj\Release\netstandard2.0\VMT.pdb

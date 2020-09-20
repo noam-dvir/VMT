@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VMT.GroupEntryPage"
+             Title="Group Entry">
+    <StackLayout Margin="20">
+        <Editor Placeholder="Enter group name"
+                Text="{Binding Name}"
+                HeightRequest="100" />
+        <Button Text="Save" Clicked="OnSaveButtonClicked" />
+        <Button Text="Delete Group" Clicked="OnDeleteButtonClicked"/>
+        <Button Text="Add Word" Clicked="OnAddWordButtonClicked"/>
+        <Button Text="Show Details" Clicked="OnShowDetailsButtonClicked"/>
+        <ListView x:Name="wordslListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Delete" 
+                                      Clicked="OnDeleteWordClicked" 
+                                      IsDestructive="True"
+                                      CommandParameter="{Binding .}"/>
+                        </ViewCell.ContextActions>
+                        <StackLayout>
+                            <Label Text="{Binding KnownWord}" HorizontalOptions="StartAndExpand" FontAttributes="Bold"></Label>
+                            <Label Text="{Binding LearntWord}" HorizontalOptions="StartAndExpand"></Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+<!--
+    <StackLayout Orientation="Horizontal">
+    <StackLayout>
+        <Label Text="{Binding KnownWord}"></Label>
+        <Label Text="{Binding LearntWord}"></Label>
+    </StackLayout>
+    <StackLayout HorizontalOptions="EndAndExpand">
+        <Button Text="Delete Word" Clicked="DeleteWordClicked" ></Button>
+    </StackLayout>
+    </StackLayout> -->

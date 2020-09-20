@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VMT.WordEntryPage"
+             Title="Add New Word">
+    <StackLayout Margin="20">
+        <Entry Placeholder="Enter Word You Want To Learn"
+               TextChanged="OnLearntEntryTextChanged"/>
+        <Entry Placeholder="Enter Translation In Known language"
+               TextChanged="OnKnownEntryTextChanged"/>
+        <Button Text="Done"
+                    Clicked="SaveNewWordButtonClicked"/>
+    </StackLayout>
+</ContentPage>
